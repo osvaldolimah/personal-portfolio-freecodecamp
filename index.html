@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+        <meta id="dcngeagmmhegagicpcmpinaoklddcgon">
+        <title>Personal Portfolio</title>
+    </head>
 <body>
-    <!--creating the top !-->
+    <!--the top !-->
     <header>
         <nav id="navbar">
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="#projects">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <!--creating welcome section-->
+    <!--welcome section-->
     <main>
-        <section id="welcome-section about">
-        <h1>Hey I am Osvaldo</h1>
-        <h3>a web developer</h3>
+        <span id="about"></span>
+        <section id="welcome-section">
+            <h1>Hey, I am Osvaldo</h1>
+            <p>a web developer</p>
+        </section>
+    <!--projects-->
+        <section id="projects">
+            <div>
+                <h2>These are some of my projects</h2>
+            </div>
+            <div id="container">
+                <div id="cards">
+                    <a id="profile-link" href="https://osvaldolimah.github.io/site-pousada/" target="_blank"> <img id="img-card" src="/img/hotel.jpg" alt="A Hotel's Website"> </a>
+                    <div class="project-tile">
+                        <p>A Hotel's Website</p>
+                    </div>
+                </div>
+                <div id="cards">
+                    <a id="profile-link" href="https://osvaldolimah.github.io/site-internet-provider/" target="_blank"> <img id="img-card" src="/img/provedor.jpg" alt="Site Internet Provider"> </a>
+                    <div class="project-tile">
+                        <p>Site Internet Provider</p>
+                    </div>
+                </div>
+                <div id="cards">
+                    <a id="profile-link" href="https://osvaldolimah.github.io/" target="_blank"> <img id="img-card" src="/img/presentation.jpg" alt="Presentation Page"> </a>
+                    <div class="project-tile">
+                        <p>Presentation Page</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <h2>Let's work together...</h2>
+                <p>How do you take your coffee?</p>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/osvaldolimah" target="_blank"> <i class="fab fa-github"></i> Github</a>
+                <a href="https://www.freecodecamp.org/osvaldolimah" target="_blank"> <i class="fab fa-free-code-camp"></i> freeCodeCamp</a>
+                <a href="https://www.linkedin.com/in/osvaldo-holanda/" target="_blank"> <i class="fab fa-linkedin"></i> Linkedin</a>
+            </div>
         </section>
     </main>
+    <footer>
+        <div>
+            <p>© Created by Osvaldo Holanda</p>
+        </div>
+    </footer>
 </body>
 </html>
