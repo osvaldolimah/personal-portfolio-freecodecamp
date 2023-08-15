@@ -120,7 +120,7 @@ h2 h1 {
 #img-card2 {
     width: 400px;
     height: 350px;
-    object-fit: scale-down;
+    object-fit: contain;
     background-color: rgb(241, 241, 241);
 }
 
