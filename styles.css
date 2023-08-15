@@ -125,6 +125,28 @@ h2 h1 {
     font-style: italic;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.social-media a {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: #f0f0f0;
+}
+
+.fab {
+        font-family: "Font Awesome 5 Brands";
+}
+
+
 
 
 
