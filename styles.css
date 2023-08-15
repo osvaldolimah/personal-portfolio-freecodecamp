@@ -6,6 +6,9 @@
 body {
     color: #f0f0f0;
     line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 
 #navbar {
@@ -72,7 +75,7 @@ h2 h1 {
 }
 
 #projects h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     max-width: 640px;
     margin: 0 auto 4rem auto;
     border-bottom: 2px solid white;
@@ -81,11 +84,12 @@ h2 h1 {
 #container {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    padding: 0 20px;
+    max-width: 1430px;
     align-items: center;
     margin: 0 auto;
-    max-width: 1024px;
-    text-align: center;
-    padding: 20px;
+    flex-wrap: wrap;
 }
 
 #cards {
@@ -93,15 +97,24 @@ h2 h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     padding: 20px;
-    width: calc((100% / 3)- 20px);
+}
+
+#cards p {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.title {
+    background-color: #303841;
+    width: 100%;
 }
 
 #img-card {
     width: 400px;
     height: 350px;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 #contact {
@@ -143,8 +156,28 @@ h2 h1 {
 }
 
 .fab {
-        font-family: "Font Awesome 5 Brands";
+    font-family: "Font Awesome 5 Brands";
 }
+footer {
+    background-color: #303841;
+    padding: 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5rem;
+    border-top: 6px solid #be3144;
+    padding: 1rem;
+}
+
+@media (max-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+
+
 
 
 
