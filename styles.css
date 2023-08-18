@@ -101,6 +101,13 @@ h2 h1 {
     padding: 20px;
 }
 
+#profile-link {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 350px;
+}
+
 #cards p {
     font-size: 1.5rem;
     padding: 10px;
